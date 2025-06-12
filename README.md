@@ -1,11 +1,15 @@
-# API - Simulador de Transferencias Bancarias
+# API - Bank transfers simulator
 
-Es una aplicación que simula la realización de transferencias bancarias e incluye 3 funcionalidades:
+An application that simulates bank transfers and includes three features:
 
-1) Registrar destinatarios
-2) Simular la realización de transferencias bancarias y,
-3) Mostrar el historial de transferencias realizadas
+1) Recipient recorder
+2) Simulates bank transfers and
+3) Displays the history of completed transfers
 
-## Especificaciones
+## Tech stacks
 
-El desarrollo está hecho en Node.js que utiliza una base de datos mySQL para guardar la información de contactos y transferencias realizadas.
+- [Node.js](https://nodejs.org/docs/latest/api/)
+- [Express.js](https://expressjs.com/)
+- [Sequelize](https://sequelize.org/)
+- MySQL database
+- [Axios](https://axios-http.com/docs/intro)
